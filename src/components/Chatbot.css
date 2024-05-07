@@ -1,0 +1,99 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.chatbot-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.chatbot-header h1{
+  font-size: 28px;
+  font-weight: 500;
+  color: #1b882d;
+}
+
+.chatbot-todos {
+  width: 80%;
+  padding: 10px;
+
+}
+
+.todo {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #e9edf6db;
+
+}
+
+.bot {
+  background-color: #e9edf6db;
+
+}
+
+.chatbot-response {
+  width: 80%;
+  padding: 10px;
+}
+
+.chatbot-input-form {
+
+  display: flex;
+  width: 80%;
+  
+}
+.req-cont{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.chatbot-input-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chatbot-input-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chatbot-input-form button:hover {
+  background-color: #2962ff;
+}
+.user .message-sender {
+  color: #2979ff; /* Blue for user */
+  font-weight: bold;
+}
+.message-sender {
+  color: #11ad2b; /* Red for ChronicCare GPT */
+  font-weight: bold;
+}
+@media (max-width: 728px) {
+.chatbot-header h1{
+  font-size: 20px;
+}
+
+}
