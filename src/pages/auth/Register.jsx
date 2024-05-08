@@ -6,7 +6,7 @@ import axios from "axios";
 
 function Register() {
   const REACT_APP_GOOGLE_CLIENT_ID = '160101167793-de1i0i9ovaalkdppsefur3u9tgp6jc96.apps.googleusercontent.com';
-  const REACT_APP_GOGGLE_REDIRECT_URL_ENDPOINT = "http://localhost:5173";
+  const REACT_APP_GOGGLE_REDIRECT_URL_ENDPOINT = "https://chronic-care-gpt-client.onrender.com";
   const [username, setUsername] = useState(localStorage.getItem('first_name'));
   const navigate = useNavigate();
   const isAuthenticated = localStorage.getItem('token');

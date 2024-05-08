@@ -34,7 +34,7 @@ const COPDForm = () => {
     e.preventDefault();
     if (isFormFilled()) {
       try {
-        const response = await axios.post('https://chronic-care-gpt.onrender.com/predict-copd/', formData, {
+        const response = await axios.post('https://copd-model-cluster.onrender.com/predict-copd/', formData, {
           headers: {
             'Content-Type': 'application/json'
           }
